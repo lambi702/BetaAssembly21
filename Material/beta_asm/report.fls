@@ -92,10 +92,10 @@ INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Struc
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
+OUTPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.pdf
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
 OUTPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
-OUTPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.pdf
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -132,10 +132,17 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.aux
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
 INPUT /Users/arthurlouis/Documents/ULiège/Bachelier/Bloc 3/Q1/Computation Structures/Project/Material/beta_asm/report.out
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb

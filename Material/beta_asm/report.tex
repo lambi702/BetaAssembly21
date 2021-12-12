@@ -25,7 +25,26 @@
 \maketitle
 
 % ==============================================================================
+\section{Introduction}
+In this project, we implemented sorting algorithms using Beta Assembly and running our code on BSim. 
+Our main goal was to make our code quite efficient. We tried to achieve this by reducing the number of registers used by our functions.
+We implemented the assembly version of the algorithms by smartly translate the functions from \textbf{.c} files by comparing and branching to loop on our array.
 
+\section{Bubblesort}
+To make our lives easier while implementing the Bubblesort, we defined some macros to make actions on the arrays :
+\begin{itemize}
+    \item \textbf{SWAP} : swaps two elements in the array by using two temporary registers
+    \item \textbf{ADDR} : returns the address of an element in an array using it's index and puts it in a specified register
+    \item \textbf{LDR} : returns the value of an element in an array using its index and puts it in a specified register
+\end{itemize}
+
+We simply implemted our two loops and the condition using 3 comparaisons and branching pairs. We also created a function using the label \textbf{swap} to call the 
+SWAP macro separetly. The rest of the code naively translates the \textbf{bubblesort.c} function by smartly using our macros and thus doesn't need further explainations.
+
+\section{Quicksort}
+To implement the Quicksort, we used tge same macros and \textbf{swap} function defined earlier. To correctly implement the sorting algorithm, we had to create another function, 
+\textbf{partition} that finds the pivot and puts values smaller than the pivot in a sub-array on the left and the values greater than the pivot in a sub-array on the right. Our function 
+\textbf{quicksort} translated from the \textbf{quicksort.c} file recursively calls himself and the partition function to sort the array as predicted.
 % ==============================================================================
 
 \end{document}
