@@ -5,7 +5,7 @@
 
 .macro SWAP(Ra,Rb, Rtmp1, Rtmp2) LD(Ra, 0, Rtmp1) LD(Rb, 0, Rtmp2) ST(Rtmp1, 0, Rb) ST(Rtmp2,0, Ra)
 .macro ADDR(Ra, Ri, Ro) MULC(Ri,4, Ro) ADD(Ra, Ro, Ro)
-.macro LDR(Ra, Ri, Ro) ADDR(Ra, Ri, Ro) LD(Ro, 0, Ro)
+.macro LDARR(Ra, Ri, Ro) ADDR(Ra, Ri, Ro) LD(Ro, 0, Ro)
 
 swap:
     PUSH(LP)

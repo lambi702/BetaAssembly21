@@ -22,11 +22,8 @@ bubblesort:
     PUSH(R10) |; temp register1 to use SWAP
     PUSH(R11) |; temp register2 to use SWAP
     
-    LD(BP,-16,R1) |; array
-    LD(BP,-12,R2) |; size
-
-    BF(R2,bubblesort_end)
-
+    LD(BP,-12,R1) |; array
+    LD(BP,-16,R2) |; size
     SUBC(R2,1,R3) |; size-1
     MOVE(R31,R4)
     SUBC(R4,1,R4) |; i = -1
